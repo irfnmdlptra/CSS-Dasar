@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Pseudo CSS</title>
+	<link rel="stylesheet"  href="style.css">
+</head>
+<body>
+
+<h1>Pseudo-class</h1>
+<p class="satu">kelas semu yg dimiliki oleh sebuah elemen HTML, yang membuat kita dapat mendefinisikan style pada <i>"keadaan tertentu" </i>dari elemen tersebut.</p>
+<br><hr>
+
+<a href="#" class="hello">Hello World</a>
+
+
+<h2>pseudo-class yang berhubngan dengan link</h2>
+
+<h3>:link</h3>
+style deafault pada sebuah link (a yang memilki href)
+
+
+<h3>:hover</h3>
+style ketika kursor mouse berada diatas sebuah link/elemen
+
+
+<h3>:active</h3>
+style ketika sebuah link si-klik (keadaan aktif)
+<ul>
+	<li><a href="#" class="active">Link 1</a></li>
+	<li><a href="#" class="active">Link 2</a></li>
+	<li><a href="#" class="active">Link 3</a></li>
+</ul>
+
+
+<h3>:visited</h3>
+style ketika sebuah link sudah pernah dikunjungi sebelumnya (menggunakan browser yang sama)
+<ul><li><a href="#" class="visited"></a>link</li></ul>
+
+
+<h2>pseudo-claas yg berhubungan dngan posisi elemen(1)</h2>
+
+<h3>:first-child</h3>
+memilih elemen pertama dari sebuah parent (elemen pembungkusnya)
+<ul class="ab">
+	<li><a href="#">link</a></li>
+	<li><a href="#">link</a></li>
+	<li><a href="#">link</a></li>
+	<li><a href="#">link</a></li>
+	<li><a href="#">link</a></li>
+	<li><a href="#">link</a></li>
+	<li><a href="#">link</a></li>
+	<li><a href="#">link</a></li>
+	<li><a href="#">link</a></li>
+	<li><a href="#">link</a></li>
+</ul>
+
+<h3>:last-child</h3>
+memilih elemen terakhir dari sebuah parent (elemen pembungkusnya)
+<ul class="bb">
+	<li><a href="#">link</a></li>
+	<li><a href="#">link</a></li>
+	<li><a href="#">link</a></li>
+	<li><a href="#">link</a></li>
+	<li><a href="#">link</a></li>
+	<li><a href="#">link</a></li>
+	<li><a href="#">link</a></li>
+	<li><a href="#">link</a></li>
+	<li><a href="#">link</a></li>
+	<li><a href="#">link</a></li>
+</ul>
+
+<h3>:nth-child(n)</h3>
+memilih elemen ke-n dari sebuah parent (elemen pembungkusnya)
+
+
+<p>n bisa berarti urutan (1),(2),...atau pola (2n),(3n+2),(4n-1) atau ganjil dan genap (event) &(odd)</p>
+<ul class="cb">
+	<li><a href="#">link</a></li>
+	<li><a href="#">link</a></li>
+	<li><a href="#">link</a></li>
+	<li><a href="#">link</a></li>
+	<li><a href="#">link</a></li>
+	<li><a href="#">link</a></li>
+	<li><a href="#">link</a></li>
+	<li><a href="#">link</a></li>
+	<li><a href="#">link</a></li>
+	<li><a href="#">link</a></li>
+</ul>
+<br><br><br><br>
+
+<h3 class="bc">:first-of-type</h3>
+memilih elemen dari sebuah jenis / tipe tag
+
+<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<h3 class="cc">last-of-type</h3>
+memilih elemen terakhir dari sebuah jenis / tag
+
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+
+</body>
+</html>

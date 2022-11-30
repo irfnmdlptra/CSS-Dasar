@@ -1,0 +1,74 @@
+/*BELAJAR MENGENAL TEXT STYLING*/
+
+
+
+
+h1 {
+	color: red;
+	font-size: 70px;
+	text-align: center;
+}
+.warna {
+	color: brown;
+}
+
+.ratakirikanan {
+	text-align:left ;
+}
+
+.ratakanan {
+	text-align: right;
+}
+
+.tengah {
+	text-align: center;
+}
+
+.ratakiri {
+	text-align: justify;
+}
+
+.paragraf {
+	text-indent: 20px;
+}
+
+
+.overline {
+	text-decoration: overline;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.line {
+	text-decoration: line-through;
+}
+
+.none a{
+	text-decoration: none;
+}
+
+.lowercase {
+	text-transform: lowercase;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.capitalize {
+	text-transform: capitalize;
+}
+
+.non a {
+	text-transform: none;
+}
+
+.letter {
+	letter-spacing: 10px;
+}
+
+.word {
+	word-spacing: 10px;
+}

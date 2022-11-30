@@ -1,0 +1,100 @@
+.satu {
+	font-family: arial;
+	font-size: 20px;
+}
+
+.hello {
+	color: orange ;
+}
+
+
+}
+
+.link {
+	color: brown;
+}
+
+
+.hover:hover{
+	color: green;
+	font-family: arial;
+	font-size: 20px;
+}
+
+.active{
+	color: lightskyblue;
+}
+
+.active:hover{
+	color: orange;
+	font-family: arial;
+	font-size: 20px;
+}
+
+.active{
+	color: lightskyblue;
+}
+.active:active {
+	font-style: italic;
+}
+
+.active:visited {
+	color:;
+}
+
+.visited:hover {
+	color: red;
+	font-size: 50px;
+
+}
+
+
+
+
+a {
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ab li:first-chil a {
+	color: red;
+}
+
+.ab li:first-child a:hover {
+	color: green;
+}
+
+
+
+.bb li:last-child a{
+	color: red;
+}
+
+.cb li:nth-child(3n-1) a {
+	color: red;
+}
+
+.cb li:nth-child(3n-1) a:hover {
+	color: blue;
+}
+
+p:last-of-type {
+	color: red;
+}
+
+h4:first-of-type {
+	color: green;
+}
+
